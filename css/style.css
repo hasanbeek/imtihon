@@ -1,0 +1,838 @@
+  @import './global.css';
+  @import './font.css';
+  @import './normalize.css';
+  @import './responsivephone.css';
+
+  header {
+  background: -webkit-linear-gradient(315deg, rgb(156, 201, 218), rgb(250, 245, 243) 27%);
+  background: -moz-linear-gradient(315deg, rgb(156, 201, 218), rgb(250, 245, 243) 27%);
+  background: linear-gradient(315deg, rgb(156, 201, 218), rgb(250, 245, 243) 27%);
+  }
+
+  .header{
+  background-image: url(../images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .logo {
+  margin-top: 32px;
+  }
+
+  .header__grid {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  padding-bottom: 66px;
+  }
+
+  .grid-text {
+  display: flex;
+  flex-direction: column;
+  }
+
+  .text-title {
+  font-family: "Martian Mono", monospace;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 74.4px;
+  letter-spacing: -2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 24px;
+  margin-top: 0;
+  padding: 0;
+  }
+
+  .text-description {
+  font-family: 'Inter',sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #385159;
+  margin-bottom: 32px;
+  }
+
+  .link-a{
+  max-width: 380px;
+  width: 100%;
+  height: 64px;
+  padding: 20px 20px 20px 24px;
+  background-color: #FFF5EF;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  }
+
+  .link-a1 img{
+  display: inline;
+  }
+
+  .link-a1{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-family: 'Martian Mono',monospace;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+  align-items:center;
+  }
+
+  .link-imgs {
+  display: flex;
+  gap: 12px;
+  }
+
+  .imgs-img {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  }
+
+  .imgs-img img{
+  margin-left: -5px;
+  }
+
+  .text-img {
+  width: 120px;
+  display: flex;
+  }
+
+  .text-img img{
+  width: 24px;
+  height: 24px;
+  }
+
+  .text-text p{
+  font-family: 'Martian Mono',monospace ;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: -1px;
+  color: #385159;
+  }
+
+  .grid-img img{
+  width:536px;
+  height:606px;
+  border-radius: 8px;
+  }
+
+
+/* main start */
+
+  .read-grow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin:120px 0 120px 0
+  }
+
+    .row-img img{
+  width: 560px;
+  height: 520px;
+  border-radius:8px;
+  }
+
+  .row-text-title {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Martian Mono", monospace;
+  line-height: 65px;
+  letter-spacing: -2px;
+  margin-bottom: 34px;
+  color: #062630;
+  }
+
+  .row-text-description {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+  }
+
+  .row-text-description img{
+  width: 28px;
+  height: 28px;
+  }
+
+  .row-text-description{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  color:#385159;
+  }
+
+/* read grow end */
+
+/* your book start */
+
+  .your-book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  }
+
+  .your-book-title {
+  font-family: 'Martian Mono', monospace;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: -2px;
+  color: #062630;
+  margin-bottom: 24px;
+  }
+
+  .bg-img{
+  background-image:url(../images/path158.png);
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position: center;
+  width: 68px;
+  height: 159px;
+  width: 68.06px;
+  height: 158.9px;
+  }
+
+  .span{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  }
+
+  .your-book-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  color:#385159;
+  }
+
+  .your-book_img img{
+  width: 560px;
+  height: 520px;
+  border-radius: 8px;
+  }
+
+/* your book end */
+
+/* reading journey start */
+
+  .reading-journey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  background: -webkit-linear-gradient(315deg, rgb(156, 201, 218), rgb(250, 245, 243) 27%);
+  background: -moz-linear-gradient(315deg, rgb(156, 201, 218), rgb(250, 245, 243) 27%);
+  background: linear-gradient(315deg, rgb(156, 201, 218), rgb(250, 245, 243) 27%);
+  margin-top: 120px;
+  margin-bottom: 120px;
+  }
+
+  .reading{
+  padding: 80px 60px;
+  background-image:url(../images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .journey-title {
+  align-items:center;
+  text-align: center;
+  font-family: 'Martian Mono', monospace;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  color: #062630;
+  margin-bottom: 80px;
+  }
+  .journey-description {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  }
+  .journey-grid {
+  margin-right: 40px;
+  }
+
+  .journey-grid .number{
+  width: 40px;
+  height: 40px;
+  padding: 4px 4px;
+  align-items: center;
+  margin-right: auto
+  }
+
+  .journey-grid .arrow {
+  width: 76.74px;
+  height: 20.51px;
+  gap: 0px;
+  opacity: 0px;
+  }
+
+  .grid-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .journey-grid_text {
+  font-family: 'Martian Mono', monospace;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -0.01em;
+  color:#062630;
+  margin-top: 15px;
+  }
+
+/* reading journey end */
+
+/* member-option sart */
+
+  .member-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  margin-bottom: 120px;
+  }
+
+  .memeber-title {
+  font-family: 'Martian Mono', monospace;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: -2px;
+  color: #062630;
+  }
+
+  .member-grid {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+  }
+
+  .member-item {
+  padding: 24px;
+  border: 1px solid #E6E1DF;
+  border-radius: 8px;
+  }
+
+  .member-item1{
+  padding: 40px 24px;
+  border: 1px solid #E6E1DF;
+  border-radius: 8px;
+  background: -webkit-linear-gradient(315deg, rgb(156, 201, 218) 5%, rgb(250, 245, 243) 46%);
+  background: -moz-linear-gradient(315deg, rgb(156, 201, 218) 5%, rgb(250, 245, 243) 46%);
+  background: linear-gradient(315deg, rgb(156, 201, 218) 5%, rgb(250, 245, 243) 46%);
+  }
+
+  .item-title {
+  font-family:'Martian Mono', monospace;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26.4px;
+  letter-spacing: -1px;
+  color: #062630;
+  padding-bottom: 24px;
+  } 
+  .item-sold {
+  font-family: 'Martian Mono', monospace;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44.2px;
+  letter-spacing: -1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  }
+
+  .month {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  }
+
+  .item-check1,.item-check2 {
+  display: flex;
+  gap: 13px;
+  }
+
+  .item-check1{
+  margin-bottom: 18px;
+  margin-top: 24px;
+  }
+
+  .item-check2{
+  margin-bottom:32px;
+  }
+
+  .item-link1 {
+  font-family: 'Martian Mono';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+  padding: 20px 43px;
+  background-color:#FFF5EF;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  text-align: center;
+  }
+
+  .item-link2 {
+  font-family: 'Martian Mono' monospace;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+  padding: 20px 75px;
+  background-color:#FFF5EF;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  }
+
+  .item-link3 {
+  font-family: 'Martian Mono', monospace;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+  padding: 20px 60px;
+  background-color:#FFF5EF;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  text-align: center;
+  }
+
+/* member-options end */
+
+/* starts-text start */
+
+  .stars-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  }
+  .sarts-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 32px;
+  }
+  .stars-description {
+  font-family: 'Martian Mono', monospace;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44.2px;
+  letter-spacing: -1px;
+  color: #062630;
+  text-align: center;
+  }
+  .stars-author {
+  font-family: 'Inter' sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #385159;
+  padding-top: 32px;
+  }
+
+/* starts end */
+
+/* main end */
+
+/* footer sart */
+
+  .footer{
+  background: -webkit-linear-gradient(315deg, rgb(6, 38, 48) 5%, rgb(6, 38, 48) 46%);
+  background: -moz-linear-gradient(315deg, rgb(6, 38, 48) 5%, rgb(6, 38, 48) 46%);
+  background: linear-gradient(315deg, rgb(6, 38, 48) 5%, rgb(6, 38, 48) 46%);
+  }
+
+
+
+  .footer-section {
+  display: flex;
+  flex-direction: column;
+  background-image:url(../images/Pattern\ Wrapper.svg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding-top: 80px;
+  }
+
+  .footer-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .top-title {
+  font-family: 'Martian Mono', monospace;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: -2px;
+  text-align: center;
+  align-items: center;
+  color: #FAF5F3;
+  }
+  .top-link {
+  margin-top: 40px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Martian Mono', monospace ;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #FFFFFF;
+  }
+
+  .top-link .top-link1{
+  display: flex;
+  padding: 20.5px 20px 20.5px 24px;
+  border: 2px solid #fff;
+  border-radius:8px;
+  margin-bottom: 24px;
+  }
+
+  .text-text1 {
+  font-family: 'Martian Mono', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #FAF5F3;
+  }
+  .footer-bottom {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  border-top: 1px solid #385159;
+  margin-top: 64px;
+  padding-bottom: 29px;
+  }
+  .bottom-text {
+  font-family: 'Martian Mono', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #ffffff;  
+  }
+  .bottom-links {
+  display: flex;
+  gap: 24px;
+  }
+
+/* footer end */
+
+  .grid-img1 img{
+  display: none;
+  }
+
+  .row-img1 img{
+  display: none;
+  }
+
+  .your-book-img1 img{
+  display: none;
+  }
+
+@media (max-width:375px){
+  header {
+  background: -webkit-linear-gradient(315deg, rgb(250, 245, 243), rgb(250, 245, 243) 77%);
+  background: -moz-linear-gradient(315deg, rgb(250, 245, 243), rgb(250, 245, 243) 77%);
+  background: linear-gradient(315deg, rgb(250, 245, 243), rgb(250, 245, 243) 77%);
+  }
+
+  .container {
+  padding: 0 16px ;
+  display: flex;
+  flex-direction: column; 
+  }
+  .logo {
+  margin-top: 24px;
+  }
+
+  .header__grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  }
+ 
+  .text-title {
+  margin-top: 104px;
+  font-family: 'Martian Mono', monospace;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45.6px;
+  letter-spacing: -2px;
+  text-align: left;
+  }
+  
+  .grid-img1 img{
+  display: block;
+  border-radius:8px;
+  }
+
+
+  .link-a {
+  width: 343px;
+  height: 64px;
+  background-color: #FFF5EF;
+  border: 2px solid #062630;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  }
+  .link-a1 {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-family: 'Martian Mono',monospace;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  letter-spacing: -1px;
+  }
+
+  .grid-img {
+  display: none;
+  }
+
+  /* header end */
+
+  /* read-grow sart */
+
+  .read-grow {
+  display: block;
+  flex-direction: column;
+  margin-top: 64px;
+  }
+  .row-img {
+  display: none;
+  }
+
+  .row-text-title {
+  font-family: Martian Mono;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44.2px;
+  letter-spacing: -2px;
+  text-align: left;
+  }
+
+  .row-text-description {
+  display: flex;
+  gap: 14px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  }
+
+  .row-img1 > img{
+  display: inline-block;
+  border-radius: 8px;
+  }
+
+  /* read-grow end */
+
+  /* your book start */
+  .your-book {
+  display: flex;
+  flex-direction:column;
+  }
+
+  .your-book-title {
+  font-family: 'Martian Mono', monospace;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44.2px;
+  letter-spacing: -2px;
+  }
+
+  .your-book-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  }
+  
+  .your-book_img {
+  display: none;
+  }
+
+  .your-book-img1 img{
+  display: block;
+  border-radius: 8px;
+  }
+
+  /* your book end */
+
+  /* your journey start */
+
+  .reading-journey {
+  display: none;
+  }
+  /* your journey end */
+
+  /* member-title start */
+
+  .member-options{
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+  margin-bottom: 0;
+  }
+
+  .memeber-title {
+  font-family: 'Martian Mono', monospace;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44.2px;
+  letter-spacing: -2px;
+  text-align: left;
+  margin-top: 64px;
+  }
+
+  .member-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  }
+
+  .member-item {
+  padding:24px;
+  width: 340px;
+  }
+  
+  .member-item1 {
+  padding:24px;
+  width: 340px;
+  }
+
+  .item-link2 {
+  font-family: 'Martian Mono',monospace;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  letter-spacing: -1px;
+  }
+  
+  /* stars start */
+
+  .stars-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
+
+  .sarts-title {
+    justify-content: left;
+  }
+
+  .stars-description {
+  font-family:' Martian Mono', monospace;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26.4px;
+  letter-spacing: -1px;
+  text-align: left;
+  }
+
+  .stars-author {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  }
+
+  /* stars end */
+
+  /* main end */
+
+  /* footer start */
+  .footer {
+   border-radius:12px
+  }
+  .footer-section {
+  border-radius:12px
+  }
+
+  .top-title {
+  font-family: 'Martian Mono', monospace;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44.2px;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-top: 48px;
+  }
+
+  .top-link {
+  gap: 16px;
+  padding:0px;
+  font-family: 'Martian Mono', monospace;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.8px;
+  letter-spacing: -1px;
+  text-align: left;
+  }
+  .top-link1 img{
+  margin-left: 0;
+  }
+ 
+  .footer-bottom {
+  display: flex;
+  flex-direction: column;
+  gap:16px ;
+  }
+ 
+}
