@@ -63,22 +63,29 @@
   margin-bottom: 32px;
   }
 
-  .link-a{
-  max-width: 380px;
-  width: 100%;
-  height: 64px;
-  padding: 20px 20px 20px 24px;
-  background-color: #FFF5EF;
-  border: 2px solid #062630;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  .link-a  a{
+    display: flex;
+    gap: 16px;
+    max-width: 380px;
+    width: 100%;
+    height: 64px;
+    padding: 20px 20px 20px 24px;
+    background-color: #FFF5EF;
+    border: 2px solid #062630;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .active-linka:hover, .item-link1 a:hover{
+    background: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+    transition: all    1.5 ease;
   }
 
   .link-a1 img{
   display: inline;
   }
 
-  .link-a1{
+  .link-a1 a{
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -395,7 +402,7 @@
   margin-bottom:32px;
   }
 
-  .item-link1 {
+  .item-link1 a{
   font-family: 'Martian Mono';
   font-size: 18px;
   font-weight: 600;
@@ -408,7 +415,7 @@
   text-align: center;
   }
 
-  .item-link2 {
+  .item-link2 a{ 
   font-family: 'Martian Mono' monospace;
   font-size: 18px;
   font-weight: 600;
@@ -420,7 +427,7 @@
   border-radius: 8px;
   }
 
-  .item-link3 {
+  .item-link3 a{
   font-family: 'Martian Mono', monospace;
   font-size: 18px;
   font-weight: 600;
@@ -508,7 +515,7 @@
   align-items: center;
   color: #FAF5F3;
   }
-  .top-link {
+  .top-link .top-link1{
   margin-top: 40px;
   display: flex;
   gap: 16px;
@@ -521,6 +528,11 @@
   letter-spacing: -1px;
   text-align: left;
   color: #FFFFFF;
+  }
+
+  .top-link .top-link1:hover{
+    background: linear-gradient(90deg, #385159 0%, #062630 100%);
+    transition: 1.5s ease;
   }
 
   .top-link .top-link1{
@@ -583,21 +595,23 @@
   background: -webkit-linear-gradient(315deg, rgb(250, 245, 243), rgb(250, 245, 243) 77%);
   background: -moz-linear-gradient(315deg, rgb(250, 245, 243), rgb(250, 245, 243) 77%);
   background: linear-gradient(315deg, rgb(250, 245, 243), rgb(250, 245, 243) 77%);
+  display:grid;
+  grid-template-columns: 1fr
   }
 
   .container {
   padding: 0 16px ;
-  display: flex;
-  flex-direction: column; 
+
   }
   .logo {
   margin-top: 24px;
   }
 
   .header__grid {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    margin-top: 0;
   }
  
   .text-title {
@@ -815,7 +829,7 @@
   margin-top: 48px;
   }
 
-  .top-link {
+  .top-link .top-link1{
   gap: 16px;
   padding:0px;
   font-family: 'Martian Mono', monospace;
